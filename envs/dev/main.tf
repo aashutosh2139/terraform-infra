@@ -5,7 +5,7 @@ locals {
   region  = "us-east-1"
 }
 
-# Testing GitHub Actions PR workflow
+# Testing CI/CD pipeline
 
 data "aws_caller_identity" "current" {}
 
